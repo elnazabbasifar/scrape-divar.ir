@@ -1,0 +1,782 @@
+[
+    {
+        "name": "املاک",
+        "url": "https://divar.ir/s/tehran/real-estate"
+    },
+    {
+        "name": "فروش مسکونی",
+        "url": "https://divar.ir/s/tehran/buy-residential"
+    },
+    {
+        "name": "آپارتمان",
+        "url": "https://divar.ir/s/tehran/buy-apartment"
+    },
+    {
+        "name": "خانه و ویلا",
+        "url": "https://divar.ir/s/tehran/buy-villa"
+    },
+    {
+        "name": "زمین و کلنگی",
+        "url": "https://divar.ir/s/tehran/buy-old-house"
+    },
+    {
+        "name": "اجاره مسکونی",
+        "url": "https://divar.ir/s/tehran/rent-residential"
+    },
+    {
+        "name": "آپارتمان",
+        "url": "https://divar.ir/s/tehran/rent-apartment"
+    },
+    {
+        "name": "خانه و ویلا",
+        "url": "https://divar.ir/s/tehran/rent-villa"
+    },
+    {
+        "name": "فروش اداری و تجاری",
+        "url": "https://divar.ir/s/tehran/buy-commercial-property"
+    },
+    {
+        "name": "دفتر کار، اتاق اداری و مطب",
+        "url": "https://divar.ir/s/tehran/buy-office"
+    },
+    {
+        "name": "مغازه و غرفه",
+        "url": "https://divar.ir/s/tehran/buy-store"
+    },
+    {
+        "name": "صنعتی،‌ کشاورزی و تجاری",
+        "url": "https://divar.ir/s/tehran/buy-industrial-agricultural-property"
+    },
+    {
+        "name": "اجاره اداری و تجاری",
+        "url": "https://divar.ir/s/tehran/rent-commercial-property"
+    },
+    {
+        "name": "دفتر کار، اتاق اداری و مطب",
+        "url": "https://divar.ir/s/tehran/rent-office"
+    },
+    {
+        "name": "مغازه و غرفه",
+        "url": "https://divar.ir/s/tehran/rent-store"
+    },
+    {
+        "name": "صنعتی،‌ کشاورزی و تجاری",
+        "url": "https://divar.ir/s/tehran/rent-industrial-agricultural-property"
+    },
+    {
+        "name": "اجاره کوتاه مدت",
+        "url": "https://divar.ir/s/tehran/rent-temporary"
+    },
+    {
+        "name": "آپارتمان و سوئیت",
+        "url": "https://divar.ir/s/tehran/rent-temporary-suite-apartment"
+    },
+    {
+        "name": "ویلا و باغ",
+        "url": "https://divar.ir/s/tehran/rent-temporary-villa"
+    },
+    {
+        "name": "دفتر کار و فضای آموزشی",
+        "url": "https://divar.ir/s/tehran/rent-temporary-workspace"
+    },
+    {
+        "name": "پروژه‌های ساخت و ساز",
+        "url": "https://divar.ir/s/tehran/real-estate-services"
+    },
+    {
+        "name": "مشارکت در ساخت",
+        "url": "https://divar.ir/s/tehran/contribution-construction"
+    },
+    {
+        "name": "پیش‌فروش",
+        "url": "https://divar.ir/s/tehran/pre-sell-home"
+    },
+    {
+        "name": "وسایل نقلیه",
+        "url": "https://divar.ir/s/tehran/vehicles"
+    },
+    {
+        "name": "خودرو",
+        "url": "https://divar.ir/s/tehran/auto"
+    },
+    {
+        "name": "سواری",
+        "url": "https://divar.ir/s/tehran/car"
+    },
+    {
+        "name": "کلاسیک",
+        "url": "https://divar.ir/s/tehran/classic-car"
+    },
+    {
+        "name": "اجاره‌ای",
+        "url": "https://divar.ir/s/tehran/rental-car"
+    },
+    {
+        "name": "سنگین",
+        "url": "https://divar.ir/s/tehran/heavy-car"
+    },
+    {
+        "name": "قطعات یدکی و لوازم جانبی خودرو",
+        "url": "https://divar.ir/s/tehran/car-accessories"
+    },
+    {
+        "name": "موتورسیکلت و لوازم جانبی",
+        "url": "https://divar.ir/s/tehran/motorcycles"
+    },
+    {
+        "name": "قایق و لوازم جانبی",
+        "url": "https://divar.ir/s/tehran/boat"
+    },
+    {
+        "name": "لوازم الکترونیکی",
+        "url": "https://divar.ir/s/tehran/electronic-devices"
+    },
+    {
+        "name": "موبایل و تبلت",
+        "url": "https://divar.ir/s/tehran/mobile-tablet"
+    },
+    {
+        "name": "گوشی موبایل",
+        "url": "https://divar.ir/s/tehran/mobile-phones"
+    },
+    {
+        "name": "تبلت",
+        "url": "https://divar.ir/s/tehran/tablet"
+    },
+    {
+        "name": "لوازم جانبی موبایل و تبلت",
+        "url": "https://divar.ir/s/tehran/mobile-tablet-accessories"
+    },
+    {
+        "name": "سیم کارت",
+        "url": "https://divar.ir/s/tehran/sim-card"
+    },
+    {
+        "name": "رایانه",
+        "url": "https://divar.ir/s/tehran/computers"
+    },
+    {
+        "name": "رایانه همراه",
+        "url": "https://divar.ir/s/tehran/laptop-notebook-macbook"
+    },
+    {
+        "name": "رایانه رومیزی",
+        "url": "https://divar.ir/s/tehran/desktop-computer"
+    },
+    {
+        "name": "قطعات و لوازم جانبی",
+        "url": "https://divar.ir/s/tehran/computer-parts-accessories"
+    },
+    {
+        "name": "مودم و تجهیزات شبکه",
+        "url": "https://divar.ir/s/tehran/modem-network-equipments"
+    },
+    {
+        "name": "پرینتر/اسکنر/کپی/فکس",
+        "url": "https://divar.ir/s/tehran/printer-scanner-fax"
+    },
+    {
+        "name": "کنسول، بازی‌ ویدئویی و آنلاین",
+        "url": "https://divar.ir/s/tehran/game-consoles"
+    },
+    {
+        "name": "صوتی و تصویری",
+        "url": "https://divar.ir/s/tehran/video-audio-device"
+    },
+    {
+        "name": "فیلم و موسیقی",
+        "url": "https://divar.ir/s/tehran/film-music"
+    },
+    {
+        "name": "دوربین عکاسی و فیلم‌برداری",
+        "url": "https://divar.ir/s/tehran/camera"
+    },
+    {
+        "name": "پخش‌کننده همراه",
+        "url": "https://divar.ir/s/tehran/headphone-speaker-microphone"
+    },
+    {
+        "name": "سیستم صوتی خانگی",
+        "url": "https://divar.ir/s/tehran/home-audio-system"
+    },
+    {
+        "name": "ویدئو و پخش کننده DVD",
+        "url": "https://divar.ir/s/tehran/dvd-bluray-player"
+    },
+    {
+        "name": "تلویزیون و پروژکتور",
+        "url": "https://divar.ir/s/tehran/tv-projector"
+    },
+    {
+        "name": "دوربین مداربسته",
+        "url": "https://divar.ir/s/tehran/cctv"
+    },
+    {
+        "name": "تلفن رومیزی",
+        "url": "https://divar.ir/s/tehran/telephone"
+    },
+    {
+        "name": "مربوط به خانه",
+        "url": "https://divar.ir/s/tehran/home-and-kitchen"
+    },
+    {
+        "name": "وسایل و تزئینات خانه",
+        "url": "https://divar.ir/s/tehran/home-decor-furniture"
+    },
+    {
+        "name": "تزئینی و آثار هنری",
+        "url": "https://divar.ir/s/tehran/art-decorative"
+    },
+    {
+        "name": "لوازم روشنایی",
+        "url": "https://divar.ir/s/tehran/lighting"
+    },
+    {
+        "name": "میز و صندلی",
+        "url": "https://divar.ir/s/tehran/table-desk-chair"
+    },
+    {
+        "name": "فرش و گلیم",
+        "url": "https://divar.ir/s/tehran/carpets"
+    },
+    {
+        "name": "کمد و بوفه",
+        "url": "https://divar.ir/s/tehran/closet-storage"
+    },
+    {
+        "name": "پرده و رومیزی",
+        "url": "https://divar.ir/s/tehran/curtain-tablecloth"
+    },
+    {
+        "name": "تخت و اتاق خواب",
+        "url": "https://divar.ir/s/tehran/bedroom-accessories"
+    },
+    {
+        "name": "مبلمان و صندلی راحتی",
+        "url": "https://divar.ir/s/tehran/sofa-armchair"
+    },
+    {
+        "name": "میز تلویزیون و وسایل سیستم پخش",
+        "url": "https://divar.ir/s/tehran/tv-stand"
+    },
+    {
+        "name": "وسایل آشپزخانه",
+        "url": "https://divar.ir/s/tehran/kitchen-appliances"
+    },
+    {
+        "name": "ماشین ظرفشویی",
+        "url": "https://divar.ir/s/tehran/dishwasher"
+    },
+    {
+        "name": "یخچال و فریزر",
+        "url": "https://divar.ir/s/tehran/refrigerator-freezer"
+    },
+    {
+        "name": "وسایل آشپزی و غذاخوری",
+        "url": "https://divar.ir/s/tehran/kitchen-accessories"
+    },
+    {
+        "name": "مایکروویو و گاز",
+        "url": "https://divar.ir/s/tehran/microwave-stove"
+    },
+    {
+        "name": "ماشین لباسشویی و خشک کننده",
+        "url": "https://divar.ir/s/tehran/washing-machine"
+    },
+    {
+        "name": "ابزار",
+        "url": "https://divar.ir/s/tehran/home-appliances"
+    },
+    {
+        "name": "نظافت و خیاطی و اتو",
+        "url": "https://divar.ir/s/tehran/vacuum-cleaner-sewing-machine-iron"
+    },
+    {
+        "name": "تعمیرات",
+        "url": "https://divar.ir/s/tehran/power-and-hand-tools"
+    },
+    {
+        "name": "ساختمان و حیاط",
+        "url": "https://divar.ir/s/tehran/building-garden"
+    },
+    {
+        "name": "سرویس بهداشتی و سونا",
+        "url": "https://divar.ir/s/tehran/bathroom-fixtures"
+    },
+    {
+        "name": "سیستم گرمایشی سرمایشی و گاز",
+        "url": "https://divar.ir/s/tehran/heating-cooling-systems"
+    },
+    {
+        "name": "آشپزخانه",
+        "url": "https://divar.ir/s/tehran/kitchen-equipments"
+    },
+    {
+        "name": "حیاط و ایوان",
+        "url": "https://divar.ir/s/tehran/patio-balcony"
+    },
+    {
+        "name": "ابزار باغبانی",
+        "url": "https://divar.ir/s/tehran/garden-tools"
+    },
+    {
+        "name": "خدمات",
+        "url": "https://divar.ir/s/tehran/services"
+    },
+    {
+        "name": "موتور و ماشین",
+        "url": "https://divar.ir/s/tehran/vehicles-services"
+    },
+    {
+        "name": "پذیرایی/مراسم",
+        "url": "https://divar.ir/s/tehran/catering-services"
+    },
+    {
+        "name": "خدمات رایانه‌ای و موبایل",
+        "url": "https://divar.ir/s/tehran/technology-services"
+    },
+    {
+        "name": "فروش دامنه و سایت",
+        "url": "https://divar.ir/s/tehran/domain-services"
+    },
+    {
+        "name": "میزبانی و طراحی سایت",
+        "url": "https://divar.ir/s/tehran/website-services"
+    },
+    {
+        "name": "خدمات پهنای باند اینترنت",
+        "url": "https://divar.ir/s/tehran/internet-services"
+    },
+    {
+        "name": "خدمات نرم‌افزار و سخت‌افزار کامپیوتر",
+        "url": "https://divar.ir/s/tehran/computer-services"
+    },
+    {
+        "name": "تعمیرات نرم‌افزار و سخت‌افزار گوشی موبایل",
+        "url": "https://divar.ir/s/tehran/mobile-services"
+    },
+    {
+        "name": "مالی/حسابداری/بیمه",
+        "url": "https://divar.ir/s/tehran/financial-services"
+    },
+    {
+        "name": "حمل و نقل",
+        "url": "https://divar.ir/s/tehran/transport-logistic-services"
+    },
+    {
+        "name": "پیشه و مهارت",
+        "url": "https://divar.ir/s/tehran/craft-skill-services"
+    },
+    {
+        "name": "آرایشگری و زیبایی",
+        "url": "https://divar.ir/s/tehran/beauty-services"
+    },
+    {
+        "name": "سرگرمی",
+        "url": "https://divar.ir/s/tehran/entertaining-services"
+    },
+    {
+        "name": "نظافت",
+        "url": "https://divar.ir/s/tehran/cleaning-services"
+    },
+    {
+        "name": "باغبانی و درختکاری",
+        "url": "https://divar.ir/s/tehran/gardening-services"
+    },
+    {
+        "name": "آموزشی",
+        "url": "https://divar.ir/s/tehran/teaching-services"
+    },
+    {
+        "name": "زبان خارجی",
+        "url": "https://divar.ir/s/tehran/foreign-language"
+    },
+    {
+        "name": "دروس مدرسه و دانشگاه",
+        "url": "https://divar.ir/s/tehran/educational-teaching"
+    },
+    {
+        "name": "نرم‌افزار",
+        "url": "https://divar.ir/s/tehran/software-teaching"
+    },
+    {
+        "name": "هنری",
+        "url": "https://divar.ir/s/tehran/art-teaching"
+    },
+    {
+        "name": "ورزشی",
+        "url": "https://divar.ir/s/tehran/sports-teaching"
+    },
+    {
+        "name": "مشاوره تحصیلی",
+        "url": "https://divar.ir/s/tehran/educational-consulting"
+    },
+    {
+        "name": "وسایل شخصی",
+        "url": "https://divar.ir/s/tehran/personal-goods"
+    },
+    {
+        "name": "کیف، کفش و لباس",
+        "url": "https://divar.ir/s/tehran/apparel"
+    },
+    {
+        "name": "کیف/کفش/کمربند",
+        "url": "https://divar.ir/s/tehran/bag-shoes-belt"
+    },
+    {
+        "name": "لباس",
+        "url": "https://divar.ir/s/tehran/clothing"
+    },
+    {
+        "name": "تزیینی",
+        "url": "https://divar.ir/s/tehran/accessories"
+    },
+    {
+        "name": "ساعت",
+        "url": "https://divar.ir/s/tehran/watches"
+    },
+    {
+        "name": "جواهرات",
+        "url": "https://divar.ir/s/tehran/jewellery"
+    },
+    {
+        "name": "بدلیجات",
+        "url": "https://divar.ir/s/tehran/trinket"
+    },
+    {
+        "name": "آرایشی، بهداشتی و درمانی",
+        "url": "https://divar.ir/s/tehran/beauty-and-personal-care"
+    },
+    {
+        "name": "کفش و لباس بچه",
+        "url": "https://divar.ir/s/tehran/child-apparel"
+    },
+    {
+        "name": "وسایل بچه و اسباب بازی",
+        "url": "https://divar.ir/s/tehran/child-products"
+    },
+    {
+        "name": "اسباب بازی",
+        "url": "https://divar.ir/s/tehran/child-toys"
+    },
+    {
+        "name": "کالسکه و لوازم جانبی",
+        "url": "https://divar.ir/s/tehran/stroller"
+    },
+    {
+        "name": "صندلی بچه",
+        "url": "https://divar.ir/s/tehran/child-furniture"
+    },
+    {
+        "name": "اسباب و اثاث بچه",
+        "url": "https://divar.ir/s/tehran/child-stuff"
+    },
+    {
+        "name": "لوازم التحریر",
+        "url": "https://divar.ir/s/tehran/stationery"
+    },
+    {
+        "name": "سرگرمی و فراغت",
+        "url": "https://divar.ir/s/tehran/entertainment"
+    },
+    {
+        "name": "بلیط",
+        "url": "https://divar.ir/s/tehran/ticket"
+    },
+    {
+        "name": "کنسرت",
+        "url": "https://divar.ir/s/tehran/concert-ticket"
+    },
+    {
+        "name": "تئاتر و سینما",
+        "url": "https://divar.ir/s/tehran/theatre-cinema-ticket"
+    },
+    {
+        "name": "کارت هدیه و تخفیف",
+        "url": "https://divar.ir/s/tehran/discount-gift-card"
+    },
+    {
+        "name": "اماکن و مسابقات ورزشی",
+        "url": "https://divar.ir/s/tehran/match-sport-ticket"
+    },
+    {
+        "name": "ورزشی",
+        "url": "https://divar.ir/s/tehran/sport-ticket"
+    },
+    {
+        "name": "اتوبوس، مترو و قطار",
+        "url": "https://divar.ir/s/tehran/travel-ticket"
+    },
+    {
+        "name": "تور و چارتر",
+        "url": "https://divar.ir/s/tehran/tours"
+    },
+    {
+        "name": "کتاب و مجله",
+        "url": "https://divar.ir/s/tehran/publication"
+    },
+    {
+        "name": "آموزشی",
+        "url": "https://divar.ir/s/tehran/educational-book"
+    },
+    {
+        "name": "ادبی",
+        "url": "https://divar.ir/s/tehran/literary-book"
+    },
+    {
+        "name": "تاریخی",
+        "url": "https://divar.ir/s/tehran/historical-book"
+    },
+    {
+        "name": "مذهبی",
+        "url": "https://divar.ir/s/tehran/religious-book"
+    },
+    {
+        "name": "مجلات",
+        "url": "https://divar.ir/s/tehran/magazine"
+    },
+    {
+        "name": "دوچرخه/اسکیت/اسکوتر",
+        "url": "https://divar.ir/s/tehran/bike-skate-scooter"
+    },
+    {
+        "name": "حیوانات",
+        "url": "https://divar.ir/s/tehran/pets-animals"
+    },
+    {
+        "name": "گربه",
+        "url": "https://divar.ir/s/tehran/cats"
+    },
+    {
+        "name": "موش و خرگوش",
+        "url": "https://divar.ir/s/tehran/rodents"
+    },
+    {
+        "name": "خزنده",
+        "url": "https://divar.ir/s/tehran/reptiles"
+    },
+    {
+        "name": "پرنده",
+        "url": "https://divar.ir/s/tehran/birds"
+    },
+    {
+        "name": "ماهی",
+        "url": "https://divar.ir/s/tehran/fishes"
+    },
+    {
+        "name": "لوازم جانبی",
+        "url": "https://divar.ir/s/tehran/pet-supplies"
+    },
+    {
+        "name": "حیوانات مزرعه",
+        "url": "https://divar.ir/s/tehran/farm-animals"
+    },
+    {
+        "name": "سگ",
+        "url": "https://divar.ir/s/tehran/dogs"
+    },
+    {
+        "name": "کلکسیون و سرگرمی",
+        "url": "https://divar.ir/s/tehran/collecting"
+    },
+    {
+        "name": "سکه، تمبر و اسکناس",
+        "url": "https://divar.ir/s/tehran/stamp-coin-collecting"
+    },
+    {
+        "name": "اشیای عتیقه",
+        "url": "https://divar.ir/s/tehran/antique-objects"
+    },
+    {
+        "name": "آلات موسیقی",
+        "url": "https://divar.ir/s/tehran/musical-instruments"
+    },
+    {
+        "name": "گیتار، بیس و امپلیفایر",
+        "url": "https://divar.ir/s/tehran/guitars"
+    },
+    {
+        "name": "سازهای بادی",
+        "url": "https://divar.ir/s/tehran/wind-instrument"
+    },
+    {
+        "name": "پیانو/کیبورد/آکاردئون",
+        "url": "https://divar.ir/s/tehran/organ-piano-accordion"
+    },
+    {
+        "name": "سنتی",
+        "url": "https://divar.ir/s/tehran/iranian-instruments"
+    },
+    {
+        "name": "درام و پرکاشن",
+        "url": "https://divar.ir/s/tehran/percussion-instruments"
+    },
+    {
+        "name": "ویولن",
+        "url": "https://divar.ir/s/tehran/violins"
+    },
+    {
+        "name": "ورزش و تناسب اندام",
+        "url": "https://divar.ir/s/tehran/sport-entertainment"
+    },
+    {
+        "name": "ورزش‌های توپی",
+        "url": "https://divar.ir/s/tehran/ball-sports"
+    },
+    {
+        "name": "کوهنوردی و کمپینگ",
+        "url": "https://divar.ir/s/tehran/mountaineering-camping"
+    },
+    {
+        "name": "غواصی و ورزش‌های آبی",
+        "url": "https://divar.ir/s/tehran/water-sports"
+    },
+    {
+        "name": "ماهیگیری",
+        "url": "https://divar.ir/s/tehran/fishing"
+    },
+    {
+        "name": "تجهیزات ورزشی",
+        "url": "https://divar.ir/s/tehran/sport-equipment"
+    },
+    {
+        "name": "ورزش‌های زمستانی",
+        "url": "https://divar.ir/s/tehran/winter-sports"
+    },
+    {
+        "name": "اسب و تجهیزات اسب سواری",
+        "url": "https://divar.ir/s/tehran/horse-riding"
+    },
+    {
+        "name": "اسباب‌ بازی",
+        "url": "https://divar.ir/s/tehran/game-and-toys"
+    },
+    {
+        "name": "اجتماعی",
+        "url": "https://divar.ir/s/tehran/social-services"
+    },
+    {
+        "name": "رویداد",
+        "url": "https://divar.ir/s/tehran/event"
+    },
+    {
+        "name": "حراج",
+        "url": "https://divar.ir/s/tehran/auction"
+    },
+    {
+        "name": "گردهمایی و همایش",
+        "url": "https://divar.ir/s/tehran/seminars-conference"
+    },
+    {
+        "name": "ورزشی",
+        "url": "https://divar.ir/s/tehran/events-sports"
+    },
+    {
+        "name": "داوطلبانه",
+        "url": "https://divar.ir/s/tehran/voluntary"
+    },
+    {
+        "name": "تحقیقاتی",
+        "url": "https://divar.ir/s/tehran/education-research-partner"
+    },
+    {
+        "name": "گم‌شده‌ها",
+        "url": "https://divar.ir/s/tehran/missing"
+    },
+    {
+        "name": "حیوانات",
+        "url": "https://divar.ir/s/tehran/lost-animals"
+    },
+    {
+        "name": "اشیا",
+        "url": "https://divar.ir/s/tehran/lost-objects"
+    },
+    {
+        "name": "برای کسب و کار",
+        "url": "https://divar.ir/s/tehran/businesses"
+    },
+    {
+        "name": "تجهیزات و ماشین‌آلات",
+        "url": "https://divar.ir/s/tehran/business-equipment"
+    },
+    {
+        "name": "فروشگاه و مغازه",
+        "url": "https://divar.ir/s/tehran/store-equipment"
+    },
+    {
+        "name": "آرایشگاه و سالن‌های زیبایی",
+        "url": "https://divar.ir/s/tehran/barber-shop-equipment"
+    },
+    {
+        "name": "دفتر کار",
+        "url": "https://divar.ir/s/tehran/office-equipment"
+    },
+    {
+        "name": "صنعتی",
+        "url": "https://divar.ir/s/tehran/industrial-equipment"
+    },
+    {
+        "name": "کافی‌شاپ و رستوران",
+        "url": "https://divar.ir/s/tehran/restaurant-equipment"
+    },
+    {
+        "name": "پزشکی",
+        "url": "https://divar.ir/s/tehran/medical-equipment"
+    },
+    {
+        "name": "عمده فروشی",
+        "url": "https://divar.ir/s/tehran/wholesale"
+    },
+    {
+        "name": "استخدام و کاریابی",
+        "url": "https://divar.ir/s/tehran/jobs"
+    },
+    {
+        "name": "اداری و مدیریت",
+        "url": "https://divar.ir/s/tehran/administrative-jobs"
+    },
+    {
+        "name": "سرایداری و نظافت",
+        "url": "https://divar.ir/s/tehran/janitorial-jobs"
+    },
+    {
+        "name": "معماری ،عمران و ساختمانی",
+        "url": "https://divar.ir/s/tehran/architect-jobs"
+    },
+    {
+        "name": "خدمات فروشگاه و رستوران",
+        "url": "https://divar.ir/s/tehran/service-jobs"
+    },
+    {
+        "name": "رایانه و فناوری اطلاعات",
+        "url": "https://divar.ir/s/tehran/it-computer-jobs"
+    },
+    {
+        "name": "مالی و حسابداری و حقوقی",
+        "url": "https://divar.ir/s/tehran/finance-legal-jobs"
+    },
+    {
+        "name": "بازاریابی و فروش",
+        "url": "https://divar.ir/s/tehran/marketing-jobs"
+    },
+    {
+        "name": "صنعتی و فنی و مهندسی",
+        "url": "https://divar.ir/s/tehran/technical-jobs"
+    },
+    {
+        "name": "آموزشی",
+        "url": "https://divar.ir/s/tehran/teaching-jobs"
+    },
+    {
+        "name": "حمل و نقل",
+        "url": "https://divar.ir/s/tehran/transport-delivery-jobs"
+    },
+    {
+        "name": "درمانی و زیبایی و بهداشتی",
+        "url": "https://divar.ir/s/tehran/health-beauty-jobs"
+    },
+    {
+        "name": "هنری و رسانه",
+        "url": "https://divar.ir/s/tehran/art-media-jobs"
+    }
+]

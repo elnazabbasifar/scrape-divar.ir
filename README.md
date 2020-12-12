@@ -1,0 +1,1 @@
+A Python script to scrape divar.ir for all categories and subcategories.
