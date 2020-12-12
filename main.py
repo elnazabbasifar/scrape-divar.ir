@@ -22,19 +22,17 @@ class DivarParser():
 
         except Exception as err:
             print('Other error occurred: {}'.format(err))
-
         else:
             # Succeed
             soup = BeautifulSoup(response.content, "html.parser") 
             return soup
-
 
     def find_categories(self, root):
         """
         Method to get categories and subcategories recursively
         """
         if root in self.visited_links:  return
-
+        
         else:   self.visited_links.append(root)
         
         soup = self.get_soup(root)
@@ -50,10 +48,7 @@ class DivarParser():
         
         # Specify the base url for the url passed into the function
         base_url = 'https://divar.ir'
-        
-        
-        # self.parent_counter += 1
- 
+
         # Extract the details for each category:Persian name , url
         for item in categories_li:
             
@@ -74,7 +69,7 @@ class DivarParser():
             # Print categories' name like a tree structure
             print(parents * '  ' + details_dict['name'])
             
-            # Create a list to save as a json file after parsing is completed
+            # Create a list to save the output as a json file
             self.results.append(details_dict)            
 
             self.parent_counter += 1
@@ -84,10 +79,8 @@ class DivarParser():
 
             self.parent_counter -= 1
         
-
         return self.results
     
-
     def write_to_file(self, data):
 
         with open("output.json", 'w') as f:
