@@ -15,7 +15,9 @@ def __parse_html(url):
         return soup
 
 def find_categories(root, parent=0):
-
+    """
+    Method to get categories and subcategories recursively
+    """
     soup = __parse_html(root)
     # Find the categories' container "ul"
     category_ul = soup.find('ul', {'class':'kt-accordion'})
@@ -27,7 +29,7 @@ def find_categories(root, parent=0):
 
     results= []
     for li in category_ul.contents:
-        
+        # Get name of category
         category_name = li.a.get_text()
 
         print(parent*'   ' + category_name)
