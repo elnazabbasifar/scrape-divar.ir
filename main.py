@@ -2,102 +2,55 @@ from bs4 import BeautifulSoup
 import requests
 import json
 
-class DivarParser():
+def __parse_html(url):
 
-    def __init__(self):
+    try:
+        response = requests.get(url)
 
-       self.visited_links = []
-       self.results = []
-       self.parent_counter = 0
+    except Exception as err:
+        print('Other error occurred: {}'.format(err))
+    else:
+        # Succeed
+        soup = BeautifulSoup(response.content, "html.parser") 
+        return soup
 
-    def get_soup(self, url):
+def find_categories(root, parent=0):
 
-        try:
-            response = requests.get(url)
-            # If the response was successful, no Exception will be raised
-            response.raise_for_status()
-            # None
-        except HTTPError as http_err:
-            print('HTTP error occurred: {}'.format(http_err))
+    soup = __parse_html(root)
+    # Find the categories' container "ul"
+    category_ul = soup.find('ul', {'class':'kt-accordion'})
+    # Extract the list of categories in order to reach the lowest ul categories
+    for i in range(parent):
+        sub_ul = category_ul.find_all('ul')
+        if sub_ul:  category_ul = sub_ul[0]
+        else:   return []
 
-        except Exception as err:
-            print('Other error occurred: {}'.format(err))
-        else:
-            # Succeed
-            soup = BeautifulSoup(response.content, "html.parser") 
-            return soup
-
-    def find_categories(self, root):
-        """
-        Method to get categories and subcategories recursively
-        """
-        if root in self.visited_links:  return
+    results= []
+    for li in category_ul.contents:
         
-        else:   self.visited_links.append(root)
-        
-        soup = self.get_soup(root)
+        category_name = li.a.get_text()
 
-        # Find the categories' container "ul"
-        category_ul = soup.find('ul', {'class':'kt-accordion'})
+        print(parent*'   ' + category_name)
 
-        # if there is no subcategory, stop searching
-        if category_ul is None: return 
-        
-        # Extract the list of categories
-        categories_li = category_ul.find_all('li')
-        
-        # Specify the base url for the url passed into the function
-        base_url = 'https://divar.ir'
+        url =  '{0}{1}'.format('https://divar.ir', li.a.get('href'))
+        results.append({
+            "name": category_name,
+            "url": url,
+            "subcategories": find_categories(url, parent+1),
+        })
+    return results
 
-        # Extract the details for each category:Persian name , url
-        for item in categories_li:
-            
-            # generate the category link
-            url = '{0}{1}'.format(base_url, item.a.get('href'))
+def write_to_file(data):
 
-            # if this link has been seen before, skip
-            if url in self.visited_links:   continue
-            
-            # create a new dict to keep details of each category
-            details_dict = {
-                # add the category name
-                'name': item.a.get_text(),                           
-                'url': url
-            }
-            parents = self.parent_counter  
-              
-            # Print categories' name like a tree structure
-            print(parents * '  ' + details_dict['name'])
-            
-            # Create a list to save the output as a json file
-            self.results.append(details_dict)            
-
-            self.parent_counter += 1
-
-            # find the subcategories for each category recursively
-            self.find_categories(details_dict['url'])
-
-            self.parent_counter -= 1
-        
-        return self.results
-    
-    def write_to_file(self, data):
-
-        with open("output.json", 'w') as f:
-            # f.write("\n")
-            json.dump(data, f, indent=4, separators=(',', ': '), ensure_ascii=False)
+    with open("output.json", 'w') as f:
+        # f.write("\n")
+        json.dump(data, f, indent=2, ensure_ascii=False)
 
 def main():
 
-    divar_scrapper = DivarParser()
-    #divar_scrapper()
-    data =divar_scrapper.find_categories('https://divar.ir/s/tehran')
-    # print(data)
-    divar_scrapper.write_to_file(data)
+    data =find_categories('https://divar.ir/s/tehran')
+    write_to_file(data)
     
 if __name__ == "__main__":
     # Run script
-    main()    
-
-    
-    
+    main()   
